@@ -8,10 +8,10 @@
             <hr/>
             <ul>
                 <li>Dificultad:
-                  <xsl:value-of select="recetas//receta//tipo/@definicion"/>
+                  <xsl:value-of select="//recetas//receta//dificultad"/>
                 </li>
                 <li>Tipo:
-                    <xsl:for-each select="//receta//tipo/@definicion"/>
+                    <xsl:value-of select="//recetas//receta//tipo//@definicion"/>
                 </li>
                 <li> Ingredientes:
             <ul type="*">

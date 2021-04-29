@@ -1,0 +1,3 @@
+Una lista de editoriales. Cada editorial tendrá una lista de los libros que ha publicado.
+De cada libro nos interesa el título en inglés y si no lo hay, en otro idioma.
+

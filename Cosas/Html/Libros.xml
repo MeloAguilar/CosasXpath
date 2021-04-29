@@ -1,0 +1,76 @@
+<bib>
+    <book id="1">
+        <title lang="EN">Inside SQL Server 7.0</title>
+        <title lang="ES">A fondo SQL Server 7.0</title>
+        <lista_autores>
+            <author>Soukup, Ron</author>
+            <author>Delaney, Kalen</author>
+        </lista_autores>
+        <publisher>Mc Graw-Hill</publisher>
+        <year>1999</year>
+    </book>
+    <book id="12">
+        <title lang="ES">Cuentos de la Alhambra</title>
+        <lista_autores>
+            <author>Washington Irving</author>
+        </lista_autores>
+        <publisher>Everest</publisher>
+        <year>1984</year>
+    </book>
+    <book id="2">
+        <title lang="EN">Struts 2</title>
+        <title lang="ES">Struts 2</title>
+        <lista_autores>
+            <author>Brown, Donald</author>
+            <author>Davis, Chad Michael</author>
+            <author>Stanlick, Scott</author>
+        </lista_autores>
+        <publisher>Anaya Multimedia</publisher>
+        <year>2008</year>
+    </book>
+    <book id="10">
+        <title lang="ES">Cabo de Hornos a la vela</title>
+        <title lang="FR">Cap Horn à voile</title>
+        <lista_autores>
+            <author>Moitessier, Bernard</author>
+        </lista_autores>
+        <publisher>Editorial Juventud</publisher>
+        <year>1977</year>
+    </book>
+    <book id="3">
+        <title lang="EN">Data on the Web</title>
+        <lista_autores>
+            <author>Abiteboul</author>
+            <author>Buneman</author>
+            <author>Suciu</author>
+        </lista_autores>
+        <year>2006</year>
+    </book>
+    <book id="4">
+        <title lang="ES">SQL Server 2000 A fondo</title>
+        <title lang="EN">Inside SQL Server 2000</title>
+        <lista_autores>
+            <author>Delaney, Kalen</author>
+        </lista_autores>
+        <publisher>McGraw-Hill</publisher>
+        <year>2001</year>
+    </book>
+    <book id="5">
+        <title lang="EN">Yachts races</title>
+        <title lang="ES">Regatas de yates</title>
+        <lista_autores>
+            <author>Curry, Manfred</author>
+        </lista_autores>
+        <publisher>Editorial Juventud</publisher>
+        <year>1971</year>
+    </book>
+    <book id="6">
+        <title lang="ES">El Manifiesto comunista</title>
+        <lista_autores>
+            <author>Marx, Karl</author>
+            <author>Engels, Federico</author>
+        </lista_autores>
+        <publisher>Mundo Obrero</publisher>
+        <year>1848</year>
+    </book>
+</bib>

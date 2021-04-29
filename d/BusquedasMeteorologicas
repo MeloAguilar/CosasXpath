@@ -1,0 +1,25 @@
+Fecha de hoy
+//dia[@fecha="2021-04-20"]
+
+Fecha de mañana
+//dia[@fecha="2021-04-21"]
+
+Temperatura máxima prevista para hoy
+//dia[@fecha="2021-04-20"]//temperatura//maxima
+
+Temperatura mínima prevista para mañana
+//dia[@fecha="2021-04-21"]//temperatura//minima
+
+Probabilidad de lluvia a las 10h de hoy
+//dia[@fecha="2021-04-20"]//prob_precipitacion[@periodo="06-12"]
+
+Horas del dia actual a las que la probabilidad de lluvia será superior al 50%
+
+//dia[@fecha="2021-04-21"][prob_precipitacion!="0"]/prob_precipitacion/@periodo
+
+
+Horas de mañana a las que el cielo estará nuboso
+//dia[@fecha="2021-04-21"]//estado_cielo[.//@descripcion="Intervalos nubosos con lluvia escasa" or @descripcion="Nubes altas"]//@periodo
+
+Hora de hoy a la que soplará más fuerte el viento
+//dia[@fecha="2021-04-20"]/viento[velocidad>=15]//@periodo

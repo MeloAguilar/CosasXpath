@@ -1,0 +1,80 @@
+<servicioTecnico id="13">
+    <ordenTrabajo tipo="Empresa" fecha_entrada="2019-04-10">
+        <ordenador>
+            <numSerie>1409GTJ</numSerie>
+            <marca>Sony</marca>
+            <modelo>Turbopluf</modelo>
+            <color>blanco</color>
+        </ordenador>
+        <descripcion>Revisión anual</descripcion>
+        <estado>P</estado>
+    </ordenTrabajo>
+    <ordenTrabajo tipo="Garantia" fecha_entrada="2019-03-14">
+        <ordenador>
+            <numSerie>3490JRH</numSerie>
+            <marca>Lenovo</marca>
+            <modelo>Gaminolo</modelo>
+            <color>gris</color>
+            <SO>Windows 10</SO>
+        </ordenador>
+        <descripcion>Cortana insulta al usuario</descripcion>
+        <estado>R</estado>
+    </ordenTrabajo>
+    <ordenTrabajo tipo="Particular" fecha_entrada="2019-05-10">
+        <ordenador>
+            <numSerie>1430HTM</numSerie>
+            <marca>Asus</marca>
+            <modelo>Stupefactio</modelo>
+            <SO>Ubuntu</SO>
+        </ordenador>
+        <descripcion>Echa humo y huele a churrasco</descripcion>
+        <estado>E</estado>
+        <presupuesto>
+            <mano_de_obra tiempo="3.5">131.00</mano_de_obra>
+            <importe_total>232.00</importe_total>
+            <piezas>
+                <pieza descripcion="placa madre" importe="73.00"/>
+                <pieza descripcion="ventilador" importe="28.00"/>
+            </piezas>
+        </presupuesto>
+    </ordenTrabajo>
+    <ordenTrabajo tipo="Empresa" fecha_entrada="2019-04-30">
+        <ordenador>
+            <numSerie>8824DTD</numSerie>
+            <marca>Acer</marca>
+            <modelo>Ritromatic</modelo>
+            <color>Azul</color>
+        </ordenador>
+        <descripcion>Piñazo</descripcion>
+        <estado>F</estado>
+        <seguro poliza="1893047735">Linea directa</seguro>
+        <presupuesto>
+            <mano_de_obra tiempo="5">275.00</mano_de_obra>
+            <importe_total>477.00</importe_total>
+            <piezas>
+                <pieza descripcion="Pantalla" importe="157.00"/>
+                <pieza descripcion="pintura" importe="45.00"/>
+            </piezas>
+        </presupuesto>
+    </ordenTrabajo>
+    <ordenTrabajo tipo="Empresa" fecha_entrada="2019-04-27">
+        <ordenador>
+            <numSerie>0485CVM</numSerie>
+            <marca>Apple</marca>
+            <modelo>iChurro</modelo>
+            <color>Blanco</color>
+            <SO>macOS</SO>
+        </ordenador>
+        <descripcion>No se enciende. Manzanita arañada</descripcion>
+        <estado>E</estado>
+        <seguro poliza="3216841856">Capfre</seguro>
+        <presupuesto>
+            <mano_de_obra tiempo="1">45.00</mano_de_obra>
+            <importe_total>178.00</importe_total>
+            <piezas>
+                <pieza descripcion="Bateria" importe="28.00"/>
+                <pieza descripcion="Pegatina manzanita" importe="105.00"/>
+            </piezas>
+        </presupuesto>
+    </ordenTrabajo>
+</servicioTecnico>
